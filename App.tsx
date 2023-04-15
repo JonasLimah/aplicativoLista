@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView} from 'react-native';
-import  {Home}  from './src/components/Home';
+import {Pages} from './src/pages/MainStack/MainStack'
+import { NavigationContainer } from '@react-navigation/native';
 export default function App() {
   return (
-    <SafeAreaView  >
- 
-
-      <Home/>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Pages/>
+    </NavigationContainer>
   );
 }
 

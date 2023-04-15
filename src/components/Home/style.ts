@@ -7,6 +7,9 @@ export const styles = StyleSheet.create({
       backgroundColor: '#fff',
       justifyContent: 'space-between',
     },
+    lengthContainer:{
+        margin:10
+    },
     list:{
         height:'50%',
         margin: 5,
@@ -49,26 +52,31 @@ export const styles = StyleSheet.create({
         flex:2,
         backgroundColor: '#D3D3D3',
         borderRadius:10,
-        margin:5
+        margin:5,
+       
     },
     input:{
-        marginTop:30,
+        marginTop:10,
         borderColor:'#000',
         borderWidth:1,
         borderRadius:10,
         paddingVertical:15,
         paddingHorizontal:5,
         margin:5,
-        backgroundColor:'#fff'
+        backgroundColor:'#fff',
+       
         
     },
-    btnAdd:{
-        backgroundColor:'#C71585',
-        paddingVertical:15,
-        marginTop:5,
+    btnHeader:{
+        paddingVertical:10,
         borderRadius:10,
-        margin:5,
-        alignItems:'center'
+        borderColor:"#fff",
+        borderWidth:1,
+        width:100,
+        height:40,
+        alignItems:"center",
+        justifyContent:"center",
+        marginBottom:5
     }
 
    
